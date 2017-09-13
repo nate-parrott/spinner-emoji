@@ -1,0 +1,99 @@
+html, body, #main {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'HelveticaNeue', 'Helvetica', sans-serif;
+}
+
+#main {
+  background-image: url(background.png);
+  background-size: 100% 100%;
+}
+
+.messages {
+  border: 1px solid transparent; /* disable margin collapsing */
+  /*filter: blur(2px);*/
+}
+
+.messages .sent, .messages .received {
+  margin: 1em 0;
+  position: relative;
+  border: 1px solid transparent;
+}
+
+.messages .received {
+  text-align: left;
+  transform-origin: left bottom;
+}
+
+.messages .sent {
+  text-align: right;
+  transform-origin: right bottom;
+}
+
+.messages .sent > div, .messages .received > div {
+  font-family: -apple-system, BlinkMacSystemFont, 'HelveticaNeue', 'Helvetica', sans-serif;
+  display: inline-block;
+  max-width: 70%;
+  position: relative;
+  z-index: 1;
+}
+
+.messages .bordered > div {
+  border-radius: 17px;
+  padding: 7px 14px;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.messages .sent.bordered > div {
+  background-color: #007AFF;
+  color: white;
+}
+
+.messages .received.bordered > div {
+  background-color: #E5E5EA;
+  color: black;
+}
+
+.messages .sent.bordered:after {
+  content: " ";
+  background-image: url(SentTail.svg);
+  width: 41px;
+  height: 34px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.messages .received.bordered:after {
+  content: " ";
+  background-image: url(ReceivedTail.svg);
+  width: 41px;
+  height: 34px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.messages {
+  width: 300px;
+  margin-left: -150px;
+  transform-origin: center top;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+
+.spinner-emoji {
+  height: 1em;
+  vertical-align: baseline;
+  position: relative;
+  top: 0.05em;
+}
+
+.unbordered > div {
+  font-size: 2.5em;
+}

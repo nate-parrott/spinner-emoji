@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="34px" viewBox="0 0 41 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>SentTail</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Messages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M17.4132841,0 C27.1139483,0 34.9778598,6.835 34.9778598,16.5 C34.9778598,16.8465 34.9452399,24.5 34.9452399,24.5 C34.9452399,28.6985 37.4253579,32.312 41,33.9915 C36.3313358,33.9055 31.9763247,32.5495 28.2641771,30.2555 C25.2761919,32.5985 21.5103469,33.9995 17.4132841,33.9995 L17.5645756,33.9995 C7.86391144,33.9995 0,26.1645 0,16.4995 C0,6.8345 7.86391144,0 17.5645756,0 L17.4132841,0 Z" id="Sent-Message-Background" fill="#007AFF"></path>
+    </g>
+</svg>

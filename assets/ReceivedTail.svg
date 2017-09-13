@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="34px" viewBox="0 0 41 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>ReceivedTail</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Messages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M6,16.5002427 C6,16.8467477 6.0325,24.4998603 6.0325,24.4998603 C6.0325,28.698922 3.5615,32.3119752 0,33.9914999 C4.6515,33.9059986 8.9905,32.5499787 12.689,30.2559449 C15.666,32.5989794 19.418,34 23.5,34 C33.165,34 41,26.1648848 41,16.4997426 C41,6.83460051 33.165,0 23.5,0 C13.835,7.10553185e-15 6,6.83510052 6,16.5002427 Z" id="Message-Tail" fill="#E5E5EA"></path>
+    </g>
+</svg>
