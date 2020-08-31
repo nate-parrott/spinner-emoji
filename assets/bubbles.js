@@ -67,9 +67,11 @@ function Bubbles(messages, options, onDone) {
     let isReceived = !!message.A;
     let text = isReceived ? message.A : message.B;
     let bordered = true; // text.replace(/\<spinner\>/g, '').length > 0;
+    let large = text.replace(/\<spinner\>/g, "").length === 0;
     let el = $("<div></div>")
       .addClass(isReceived ? "received" : "sent")
       .addClass(bordered ? "bordered" : "unbordered")
+      .addClass(large ? "large" : "small")
       .append(createMessageNode(text))
       .appendTo(self.node);
 

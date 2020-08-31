@@ -1,62 +1,51 @@
 [
   [
-    {"A": "did you see my last text?"},
-    {"A": "<spinner>"},
-    {"A": "<spinner>"},
-    {"B": "yeah i saw it."}
+    { "A": "did you see my last text?" },
+    { "A": "<spinner>" },
+    { "A": "<spinner>" },
+    { "B": "yeah i saw it." }
+  ],
+  [{ "A": "wya" }, { "B": "walking over <spinner>" }],
+  [{ "A": "ugh" }, { "A": "stuck on the Q train <spinner>" }, { "B": "rip" }],
+  [{ "A": "did he text you back yet?" }, { "B": "<spinner>" }, { "A": "ugh" }],
+  [
+    { "A": "Hey did you get your visa approved yet?" },
+    { "B": "Still waiting <spinner>" },
+    { "A": "ack 😡" }
   ],
   [
-    {"A": "wya"},
-    {"B": "walking over <spinner>"}
+    { "A": "where are you?" },
+    { "B": "you said you'd be here" },
+    { "B": "<spinner>" },
+    { "B": "<spinner>" },
+    { "A": "sorry omw!!!" }
   ],
   [
-    {"A": "ugh"},
-    {"A": "stuck on the Q train <spinner>"},
-    {"B": "rip"}
+    { "A": "Can you send someone over ASAP?" },
+    { "B": "Lemme check our schedule, one sec <spinner>" }
   ],
   [
-    {"A": "did he text you back yet?"},
-    {"B": "<spinner>"},
-    {"A": "ugh"}
+    { "A": "Did you get your computer to start?" },
+    { "B": "sadly no" },
+    { "B": "still <spinner>" },
+    { "A": "<spinner>" },
+    { "A": "sorry 😕" }
   ],
   [
-    {"A": "Hey did you get your visa approved yet?"},
-    {"B": "Still waiting <spinner>"},
-    {"A": "ack 😡"}
+    { "B": "do you get the joke?" },
+    { "A": "umm" },
+    { "B": "<spinner>" },
+    { "B": "<spinner>" },
+    { "A": "OH i get it 😂😂" },
+    { "B": "took long enough" }
   ],
   [
-    {"A": "where are you?"},
-    {"B": "you said you'd be here"},
-    {"B": "<spinner>"},
-    {"B": "<spinner>"},
-    {"A": "sorry omw!!!"}
-  ],
-  [
-    {"A": "Can you send someone over ASAP?"},
-    {"B": "Lemme check our schedule, one sec <spinner>"}
-  ],
-  [
-    {"A": "Did you get your computer to start?"},
-    {"B": "sadly no"},
-    {"B": "still <spinner>"},
-    {"A": "<spinner>"},
-    {"A": "sorry 😕"}
-  ],
-  [
-    {"B": "do you get the joke?"},
-    {"A": "umm"},
-    {"B": "<spinner>"},
-    {"B": "<spinner>"},
-    {"A": "OH i get it 😂😂"},
-    {"B": "took long enough"}
-  ],
-  [
-    {"A": "what's up where are you"},
-    {"B": "omg my food is taking forever"},
-    {"B": "i'm here like"},
-    {"B": "<spinner><spinner>"},
-    {"B": "go without me"},
-    {"A": "we'll wait it's ok"},
-    {"B": "❤️❤️"}
+    { "A": "what's up where are you" },
+    { "B": "omg my food is taking forever" },
+    { "B": "i'm here like" },
+    { "B": "<spinner>  <spinner>" },
+    { "B": "go without me" },
+    { "A": "we'll wait it's ok" },
+    { "B": "❤️❤️" }
   ]
 ]
