@@ -1,6 +1,5 @@
 html,
-body,
-#main {
+body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -9,9 +8,17 @@ body,
     sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
 #main {
+  flex-grow: 1;
   background-image: url(background.png);
   background-size: 100% 100%;
+  position: relative;
 }
 
 .messages {
@@ -106,4 +113,39 @@ body,
 
 .unbordered > div {
   font-size: 2.5em;
+}
+
+#ctaContainer {
+  /* position: fixed;
+  bottom: 5vh;
+  right: 5vh; */
+  font-size: 1.2em;
+  /* left: 5vh;
+  right: 5vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000;
+  overflow: auto;
+  font-weight: 400;
+  color: #211;
+}
+
+#cta {
+  width: 15em;
+  background-color: rgba(255, 255, 255, 0.66);
+  padding: 1em;
+  line-height: 1.4;
+}
+
+#cta > p:first-child {
+  margin-top: 0;
+}
+
+.animatedEmoji,
+.inlineEmoji {
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: 0.05em;
 }
