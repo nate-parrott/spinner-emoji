@@ -32,7 +32,8 @@ function Bubbles(messages, options, onDone) {
   let left = valOrRand(options.x) * 100;
   let top = valOrRand(options.y) * 70;
   let depth = valOrRand(options.depth);
-  let scale = 1.7 * (1 - depth);
+  const baseScale = window.innerWidth <= 600 ? 1 : 1.7;
+  let scale = baseScale * (1 - depth);
   let minDepthBeforeBlur = 0.3;
   let blur =
     depth > minDepthBeforeBlur
