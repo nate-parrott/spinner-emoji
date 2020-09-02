@@ -19,6 +19,17 @@ body {
   background-image: url(background.png);
   background-size: 100% 100%;
   position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  #main {
+    flex-basis: 60vh;
+  }
 }
 
 .messages {
@@ -148,4 +159,14 @@ body {
   height: 1em;
   position: relative;
   top: 0.05em;
+}
+
+@media screen and (max-width: 600px) {
+  #ctaContainer {
+    overflow: visible;
+    padding: 1em;
+  }
+  #cta {
+    width: 100%;
+  }
 }
