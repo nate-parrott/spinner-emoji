@@ -106,7 +106,7 @@ function Bubbles(messages, options, onDone) {
       }, delay);
     } else {
       // we're done displaying:
-      setTimeout(self.flyOut, self.randMessageDelay() * 2);
+      setTimeout(self.flyOut, self.randMessageDelay() * 1);
     }
   };
   self.flyOut = function () {
@@ -167,7 +167,7 @@ function Manager(convos) {
         self.itemsPerDepth[depth] += 1;
       }
     });
-    setTimeout(self.loop, 500);
+    setTimeout(self.loop, 200);
   };
 }
 
